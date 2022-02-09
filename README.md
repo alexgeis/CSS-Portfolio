@@ -58,11 +58,11 @@ After adding in placeholder images to the projects we haven't completed yet, alo
 
 ## Links for Homework
 
-![GitHub Pages URL - Alex Geis Portfolio](https://alexgeis.github.io/CSS-Portfolio-Homework/)
+[GitHub Pages URL - Alex Geis Portfolio](https://alexgeis.github.io/CSS-Portfolio-Homework/)
 
 ![GitHub Pages Screenshot - Alex Geis Portfolio](./Assets/images/Geis-Portfolio-Screenshot.png)
 
-![GitHub Repo URL - CSS-Portfolio-Homework](https://github.com/alexgeis/CSS-Portfolio-Homework)
+[GitHub Repo URL - CSS-Portfolio-Homework](https://github.com/alexgeis/CSS-Portfolio-Homework)
 
 ---
 
