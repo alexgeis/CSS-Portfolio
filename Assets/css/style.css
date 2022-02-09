@@ -1,263 +1,265 @@
 * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background: linear-gradient(white,#00b4d8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(white, #00b4d8);
 }
 
 /* NAV BAR STYLING */
 header {
-	display: flex;
-	/* below is from horisea */
-	justify-content: flex-end;
-	align-items: center;
-	padding: 20px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	background-color: black;
-	color: #ffffff;
+  display: flex;
+  /* below is from horisea */
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: black;
+  color: #ffffff;
 }
 
 header img {
-	border-radius: 10px;
-	height: 48px;
-	width: 48px;
+  border-radius: 10px;
+  height: 48px;
+  width: 48px;
 }
 
 header h1 {
-	font-size: 48px;
-	text-align: left;
-	margin: 10px auto 10px 10px;
-	/* background-color: white; */
+  font-size: 48px;
+  text-align: left;
+  margin: 10px auto 10px 10px;
+  /* background-color: white; */
 }
 
 header h1 .geis {
-	color: #00b4d8;
+  color: #00b4d8;
 }
 
 header nav {
-	padding-top: 15px;
-	margin-right: 20px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
 nav li {
-	display: inline;
-	text-align: right;
-	margin-left: 25px;
-	justify-content: flex-end;
+  display: inline;
+  text-align: right;
+  margin-left: 25px;
+  justify-content: flex-end;
 }
 
 header nav ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 /* HERO IMAGE STYLING */
 .hero {
-	height: 500px;
-	width: 100%;
-	margin-bottom: 25px;
-	background-image: url("https://images.squarespace-cdn.com/content/v1/5967e379cf81e04b29821335/1500128187919-8LQ2LTQX2TZ1AIMHT2KK/1653967_2654069309630_1836943146085402573_n.jpg?format=1500w");
-	background-size: cover;
-	background-position: center;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5967e379cf81e04b29821335/1500128187919-8LQ2LTQX2TZ1AIMHT2KK/1653967_2654069309630_1836943146085402573_n.jpg?format=1500w");
+  background-size: cover;
+  background-position: center;
 }
 /* HYPERLINK STYLING */
 nav a {
-	color: white;
+  color: white;
 }
 
 nav a:hover {
-	color: #00b4d8;
-	text-decoration: underline;
+  color: #00b4d8;
+  text-decoration: underline;
 }
 
 a {
-	color: blue;
+  color: blue;
 }
 
 a:hover {
-	color: #03045e;
-	text-decoration: underline;
+  color: #03045e;
+  text-decoration: underline;
 }
 
 /* ---- CONTENT BLOCKS ----*/
 
 /* section-row will define the behavior of entire row */
 .section-row {
-	display: flex;
-	margin: 10px 10px;
-	/* justify-content: space-between; */
+  display: flex;
+  margin: 10px 10px;
+  /* justify-content: space-between; */
 }
 /* section-heading will define behavior of left heading sidebar */
 .section-heading {
-	border-right: 3px solid #03045e;
-	margin: 10px auto;
-	flex: 0 0 20%;
+  border-right: 3px solid #03045e;
+  margin: 10px auto;
+  flex: 0 0 20%;
 }
 /* section-content will define behavior of right main content container */
 .section-content {
-	margin: 20px;
-	/* margin-right: 100px; */
-	display: flex;
-	flex-wrap: wrap;
-	flex: 0 0 70%;
+  margin: 20px;
+  /* margin-right: 100px; */
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 70%;
 }
 
 .content {
-	line-height: 1.5;
+  line-height: 1.5;
 }
 
 h2 {
-	color: #03045e;
-	font-size: 40px;
-	text-decoration: overline #03045e;
-	line-height: 100px;
-	text-decoration-thickness: 2px;
-	margin-right: 20px;
+  color: #03045e;
+  font-size: 40px;
+  text-decoration: overline #03045e;
+  line-height: 100px;
+  text-decoration-thickness: 2px;
+  margin-right: 20px;
 }
 
 .work {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
 }
 
 .main-work-card {
-	border: 1px solid black;
-	margin: 10px auto;
-	height: 200px;
-	width: 100%;
-	margin-bottom: 25px;
-	position: relative;
-	/* background-image: url("../images/modular.jpg"); */
-	/* background-size: cover; */
-	/* background-position: center; */
-	box-shadow: 10px 10px 5px grey;
-	text-align: center;
+  border: 1px solid black;
+  margin: 10px auto;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+  /* background-image: url("../images/modular.jpg"); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  box-shadow: 10px 10px 5px grey;
+  text-align: center;
 }
 
 .main-work-card:hover {
-	box-shadow: 5px 5px 5px #03045e;
+  box-shadow: 5px 5px 5px #03045e;
 }
 
 .mainCardTitle {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-	background-color: black;
-	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .work-card {
-	border: 1px solid black;
-	margin: 10px;
-	height: 100px;
-	width: 20%;
-	position: relative;
-	box-shadow: 5px 5px 5px grey;
+  border: 1px solid black;
+  margin: 10px;
+  height: 100px;
+  width: 20%;
+  position: relative;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .work-card:hover {
-	box-shadow: 5px 5px 5px #03045e;
+  box-shadow: 5px 5px 5px #03045e;
 }
 
 .subCardTitle {
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	background-color: black;
-	color: white;
-	padding: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
 
 h3:hover {
-	color: red;
+  color: red;
 }
 
 h3 {
-	/* background-color: black; */
-	color: white;
-	padding: 10px;
-	/* margin: 10px auto; */
-	/* height: 25px; */
-	/* margin-right: 40%; */
-	/* align-self: flex-end; */
+  /* background-color: black; */
+  color: white;
+  padding: 10px;
+  /* margin: 10px auto; */
+  /* height: 25px; */
+  /* margin-right: 40%; */
+  /* align-self: flex-end; */
 }
 
 img {
-	height: 100%;
-	width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 div li {
-	display: inline;
-	text-align: right;
-	margin: 10px;
-	justify-content: center;
+  display: inline;
+  text-align: right;
+  margin: 10px;
+  justify-content: center;
 }
 
 div ul {
-	list-style-type: none;
-	margin: 30px auto;
+  list-style-type: none;
+  margin: 30px auto;
 }
 
 /* FOOTER */
 .footer {
-	padding: 30px;
-	clear: both;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 .footer h2 {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 /* MEDIA QUERIES */
 
 /* SCREENS > 992px */
 @media screen and (max-width: 992px) {
-	header {
-		flex-direction: column;
-		align-items: center;
-		margin: 10px auto;
-	}
-	header nav ul {
-		flex-direction: column;
-		align-items: center;
-	}
-	header h1 {
-		margin: 0;
-	}
-	.section-row {
-		flex-direction: column;
-	}
-	.section-heading {
-		border-bottom: 3px solid #03045e;
-	}
-	.section-content{
-		flex-direction: column;
-		align-items: center;
-		margin: 10px auto;
-	}
-	.work-card{
-		width: 80%;
-	}
-	header nav ul {
-		flex-direction: column;
-		align-items: center;
-	}
+  header {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
   }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header h1 {
+    margin: 0;
+  }
+  .section-row {
+    flex-direction: column;
+  }
+  .section-heading {
+    border-bottom: 3px solid #03045e;
+  }
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .work-card {
+    width: 80%;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
-  /* SCREENS > 992px */
+/* SCREENS > 992px */
 /* @media screen and (min-width: 768px) {
 	body {
 	  background-color: blue;
