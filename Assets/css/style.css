@@ -170,15 +170,16 @@ h2 {
   height: 100px;
   width: 20%;
   position: relative;
-  box-shadow: 5px 5px 5px grey;
-  overflow: hidden;
-  background: #c04848; /* fallback for old browsers */
-  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
-    url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg"); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
-    url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
-  background-repeat: no-repeat;
+  box-shadow: 5px 5px 5px grey;
+  /* overflow: hidden;
+  background: #c04848; //fallback for old browsers
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
+    url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg"); // Chrome 10-25, Safari 5.1-6
+  background: linear-gradient(rgb(72, 0, 72, 0.8), rgb(192, 72, 72, 0.8)),
+    url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg"); // W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+  background-size: cover;
+  background-repeat: no-repeat*/
 }
 
 .work-card:hover {
@@ -192,6 +193,10 @@ h2 {
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 10px;
+}
+
+a img {
+  background-color: #00b4d8;
 }
 
 h3:hover {
